@@ -111,7 +111,7 @@ class FeatureExtraction(object):
         loan_amnt: 借款人申请贷款的金额
         funded_amnt:在那个时候承诺的贷款总额
         funded_amnt_inv:在那个时间点投资者为该贷款承担的总金额
-        installment:  贷款发生时借款人每月支付的款项                 结合时间来做特征
+        installment:  贷款发生时借款人每月支付的款项                
         annual_inc: 借款人在注册期间提供的自我报告的年收入。
         revol_bal: 总信用循环余额
         out_prncp: 剩余未偿还本金总额
@@ -119,7 +119,7 @@ class FeatureExtraction(object):
         total_pymnt: 迄今收到的付款总额资金
         total_pymnt_inv: 迄今收到的付款总额的一部分由投资者资助
         total_rec_prncp: 目前收到的本金
-        total_rec_int: 迄今收到的利息                       利息应该怎么用呢?
+        total_rec_int: 迄今收到的利息                      
         tot_coll_amt: 总欠款总额
         tot_cur_bal: 所有帐户的当前总余额
         total_rev_hi_lim: 循环信用额度/信用额度总额
