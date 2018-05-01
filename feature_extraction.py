@@ -15,7 +15,6 @@ __author__ = 'liyang'
 import pandas as pd
 import numpy as np
 import time
-from config import *
 
 class FeatureExtraction(object):
     """
