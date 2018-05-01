@@ -15,7 +15,6 @@ __author__ = 'liyang'
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
-from config import *
 
 class DataPreprocess(object):
     """
@@ -107,8 +106,8 @@ class DataPreprocess(object):
 
 if  __name__ == '__main__':
     dp = DataPreprocess()
-    train = dp.read_data(train_path)
-    test = dp.read_data(test_path)
+    train = dp.read_data('data/train.csv')
+    test = dp.read_data('data/test.csv')
 
     # 数据清洗
     dp.data_wash(train, test)
@@ -116,4 +115,4 @@ if  __name__ == '__main__':
     # 欠采样
     train_data= dp.read_data('data/train_modifier.csv')
     train_down_data = dp.down_sample(train_data)
-    train_down_data.to_csv(train_down_path, index=False)
+    train_down_data.to_csv('data/train_down_data.csv', index=False)
