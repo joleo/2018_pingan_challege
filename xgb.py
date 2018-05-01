@@ -67,4 +67,4 @@ if  __name__ == '__main__':
     test_prediction = np.array(dtest_predictions)
     test_df.loc[:, 'acc_now_delinq'] = test_prediction
     submission = test_df.loc[:, ['member_id', 'acc_now_delinq']]
-    submission.to_csv(sumbmit_path, index=False)
+    submission.to_csv('data/summission.csv', index=False)
