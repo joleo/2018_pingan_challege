@@ -17,7 +17,6 @@ import numpy as np
 from xgboost.sklearn import XGBClassifier
 from sklearn.metrics import fbeta_score
 
-from config import *
 
 if  __name__ == '__main__':
     train_df = pd.read_csv('data/train_down_data.csv')
