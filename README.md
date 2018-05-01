@@ -2,5 +2,6 @@
 
 
 ## 运行步骤
-run data_wash.py 对数据预处理
-run xgb.py  训练模型并得到结果
+1. run data_wash.py 对数据预处理
+
+2. run xgb.py  训练模型并得到结果
